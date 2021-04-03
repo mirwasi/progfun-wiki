@@ -44,7 +44,7 @@ These are functions that take a function as a parameter or return functions.
     def sum(f: Int => Int)(a: Int, b: Int): Int = { ... } 
 
     // Called like this
-    sum((x: Int) => x * x * x)          // Anonymous function, i.e. does not have a name  
+    sum((x: Int) => x * x * x          // Anonymous function, i.e. does not have a name  
     sum(x => x * x * x)                 // Same anonymous function with type inferred
 
     def cube(x: Int) = x * x * x  
